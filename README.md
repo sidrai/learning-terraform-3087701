@@ -15,9 +15,9 @@ The branches are structured to correspond to the videos in the course. The namin
 
 The `main` branch contains the starting code for the course and the `final` branch contains the completed code.
 
-### Instructor
+### Composer
 
-Josh Samuelson 
+Siddharth Rai 
                             
 DevOps Engineer
 
