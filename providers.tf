@@ -9,13 +9,13 @@ terraform {
   required_version = ">= 1.0.0"
 }
 
-provider "google" {
-  credentials = file("/home/siddharth_rai/tfgcpassign-2447c81543d0.json")
+#provider "google" {
+#  credentials = file("/home/siddharth_rai/tfgcpassign-2447c81543d0.json")
   
   # Specify your project ID and region
-  project = "tfGcpAssign"
-  region  = "us-central1" # You can specify the region you prefer
+#  project = "tfGcpAssign"
+#  region  = "us-central1" # You can specify the region you prefer
   
   # Optionally, you can specify the zone
-  zone    = "us-central1-a"
-}
+#  zone    = "us-central1-a"
+#}
