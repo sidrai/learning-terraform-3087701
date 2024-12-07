@@ -1,11 +1,21 @@
 terraform {
   required_providers {
-    aws = {
-      source  = "hashicorp/aws"
+    google = {
+      source  = "hashicorp/google"
+      version = "~> 4.0" # You can specify the version you need
     }
   }
+
+  required_version = ">= 1.0.0"
 }
 
-provider "aws" {
-  region  = "ap-southeast-2"
+provider "google" {
+  credentials = file("C:\Users\Siddh\Downloads\tfgcpassign-2447c81543d0.json")
+  
+  # Specify your project ID and region
+  project = "tfGcpAssign"
+  region  = "us-central1" # You can specify the region you prefer
+  
+  # Optionally, you can specify the zone
+  zone    = "us-central1-a"
 }
