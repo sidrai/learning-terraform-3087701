@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("C:\Users\Siddh\Downloads\tfgcpassign-2447c81543d0.json")
+  credentials = file("/home/siddharth_rai/tfgcpassign-2447c81543d0.json")
   
   # Specify your project ID and region
   project = "tfGcpAssign"
